@@ -1,6 +1,7 @@
 # CRSet Demonstrator
 
-This project is a showcase of CRSet, the novel revocation mechanism for _W3C Verifiable Credentials_ with **cascading padded Bloom filters**, as proposed in the paper **[CRSet: Non-Interactive Verifiable Credential Revocation with Metadata Privacy for Issuers and Everyone Else](https://arxiv.org/abs/2501.17089)**.
+This project is a showcase of CRSet, the novel revocation mechanism for _W3C Verifiable Credentials_ with **cascading padded Bloom filters**, as proposed in the paper **[CRSet: Private Non-Interactive Verifiable
+Credential Revocation](https://arxiv.org/abs/2501.17089)**.
 
 ## Demo Content
 
@@ -82,7 +83,7 @@ This demo requires an SSI Wallet supporting OID4VC protocols, like Altme Wallet.
 
 ### CRSet Issuer Backend
 
-As mentioned earlier, this demo requires the **[crset-issuer-backend](https://github.com/jfelixh/crset-issuer-backend)** to be running in order to manage credentials. To start it, follow the instructions in the [README](https://github.com/jfelixh/crset-issuer-backend/blob/main/README.md) of that repository. The docker compose setup of this demo expects the _crset-issuer-backend_ to be available at the default `localhost:5050`.
+As mentioned earlier, this demo requires the **[crset-issuer-backend](https://github.com/flhps/crset-issuer-backend)** to be running in order to manage credentials. To start it, follow the instructions in the [README](https://github.com/flhps/crset-issuer-backend/blob/main/README.md) of that repository. The docker compose setup of this demo expects the _crset-issuer-backend_ to be available at the default `localhost:5050`.
 
 ### External URL
 
@@ -124,12 +125,12 @@ We thank the Ethereum Foundation for funding this work with an Ethereum Academic
 
 ## Links and References
 
-- ![arXiv](https://img.shields.io/badge/arXiv-2501.17089-b31b1b.svg) **[CRSet: Non-Interactive Verifiable Credential Revocation with Metadata Privacy for Issuers and Everyone Else](https://arxiv.org/abs/2501.17089)**  
-  _Hoops et al., 2025._
-- ![GitHub](https://img.shields.io/badge/GitHub-crset--issuer--backend-blue?logo=github) **[crset-issuer-backend](https://github.com/jfelixh/crset-issuer-backend)**
-- ![GitHub](https://img.shields.io/badge/GitHub-crset--check-blue?logo=github) **[crset-check](https://github.com/jfelixh/crset-check)**
+- ![arXiv](https://img.shields.io/badge/arXiv-2501.17089-b31b1b.svg) **[CRSet: Private Non-Interactive Verifiable
+Credential Revocation](https://arxiv.org/abs/2501.17089)**
+- ![GitHub](https://img.shields.io/badge/GitHub-crset--issuer--backend-blue?logo=github) **[crset-issuer-backend](https://github.com/flhps/crset-issuer-backend)**
+- ![GitHub](https://img.shields.io/badge/GitHub-crset--check-blue?logo=github) **[crset-check](https://github.com/flhps/crset-check)**
 - ![GitHub](https://img.shields.io/badge/GitHub-crset--cascade-blue?logo=github)
-  **[crset-cascade](https://github.com/jfelixh/crset-cascade/)**
+  **[crset-cascade](https://github.com/flhps/crset-cascade/)**
 
 - **[EIP-4844: Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844)**
 - **[W3C Verifiable Credentials Data Model 1.1](https://www.w3.org/TR/vc-data-model/)**
