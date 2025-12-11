@@ -64,7 +64,10 @@ services:
       - .env
     networks:
       - crset-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     profiles: [issuer]
+    
 
 networks:
   crset-network:
